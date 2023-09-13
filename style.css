@@ -1,0 +1,58 @@
+body {
+    background: rgb(248, 248, 248);
+    max-width: 960px;
+    color: #232323;
+    margin: 0 auto;
+    /* font-family: "Colus"; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+header {
+    display: block;
+    font-size: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0.5em 1em;
+    /* border-bottom: solid; */
+    
+    /* box-shadow: 0 2px 4px -2px black; */
+}
+
+/* @font-face {
+    font-family: "Colus";
+    src:
+        local("Colus"),
+        url(“./fonts/OFT/Colus-Regular.otf”) format(“opentype”);
+} */
+
+a {
+    color: #000;
+    text-decoration: none; /* no underline */
+  }
+
+.name {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.links {
+    font-size: 35px;
+    float: right;
+ }
+
+ a {
+    padding-right: 20px;
+    /* margin-left: 0.25em; */
+ }
+
+a:active {
+    border-bottom: 1px solid #555;
+    padding-right: 20px;
+}
+
+#duck {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
