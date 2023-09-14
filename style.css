@@ -52,7 +52,7 @@ a:active {
 }
 
 main {
-    margin-top: 220px;
+    margin-top: 200px;
 }
 
 /* section {
@@ -62,7 +62,7 @@ main {
 #dev {
     width:35rem;
     margin-left: 85px;
-    margin-top:55px;
+    margin-top:25px;
 }
 
 #I {
@@ -117,7 +117,33 @@ footer {
     
 }
 
-#heart {
+#background {
+    background-image: url("./images/heart.png");
+    background-repeat: no-repeat;
+    background-position: top 150px left 900px;
+}
+
+/* #heart {
     width: 1200px;
     margin-left: 500px;
+} */
+
+#bug-game {
+    font-size: 45px;
 }
+
+/* #portfolio-main {
+    margin-top: 200px;
+}
+
+#portfolio-h1 {
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+.texts {
+    line-height: 1.8;
+}
+
