@@ -91,8 +91,13 @@ main {
 }
 
 #excl {
-    width: 230px;
+    width: 30px;
     margin-left: 400px;
+}
+
+#qa {
+    margin-top: 300px;
+    width: 180px;
 }
 
 footer {
