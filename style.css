@@ -3,8 +3,8 @@ body {
     max-width: 960px;
     color: #232323;
     margin: 0 auto;
-    /* font-family: "Colus"; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 header {
     display: block;
@@ -13,24 +13,11 @@ header {
     left: 0;
     right: 0;
     padding: 0.5em 1em;
-    /* border-bottom: solid; */
-    
-    /* box-shadow: 0 2px 4px -2px black; */
 }
 
 .container {
     display: flex;
 }
-
-h3 {
-    margin-top: 139px;
-}
-/* @font-face {
-    font-family: "Colus";
-    src:
-        local("Colus"),
-        url(“./fonts/OFT/Colus-Regular.otf”) format(“opentype”);
-} */
 
 a {
     color: #000;
@@ -68,8 +55,14 @@ main {
     margin-top: 220px;
 }
 
+/* section {
+    display: block;
+} */
+
 #dev {
-    width: 530px;
+    width:45rem;
+    margin-left: 85px;
+    margin-top:55px;
 }
 
 #I {
@@ -90,4 +83,31 @@ main {
 
 #a {
     width: 150px;
+}
+
+#qa {
+    width: 600px;
+    margin-left: 400px;
+}
+
+#excl {
+    width: 230px;
+    margin-left: 400px;
+}
+
+footer {
+    padding: 10px;
+    /* border-width: 20px;
+    border-style:solid;
+    border-color:  rgba(120, 120, 120, .3); */
+    float: right;
+    height: 200px;
+    /* margin-top: 475px;
+    margin-left: 500px; */
+}
+
+.icon {
+    max-width: 70px;
+    margin-right: 10px;
+    margin-bottom: 15px;
 }
