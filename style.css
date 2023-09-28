@@ -152,3 +152,31 @@ footer {
     line-height: 1.8;
 }
 
+textarea {
+    display: block;
+    padding: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+label {
+    margin-top: 290px;
+    display:block; 
+    float:left;
+    margin-left: 345px;
+    /* margin-right: auto; */
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+input {
+    margin-left: 440px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    outline: none; 
+}
+
+
+    
